@@ -22,7 +22,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     <!-- JavaScript compilado-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" href="pingoooo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/pingoooo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -37,7 +37,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand pull-left">  <img src="pingoooo.png" style="width: 30px;"/> </a>
+      <a class="navbar-brand pull-left">  <img src="imagens/pingoooo.png" style="width: 30px;"/> </a>
     </div>
 
 <!--Conteúdos do navbar -->
