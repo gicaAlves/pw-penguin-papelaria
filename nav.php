@@ -50,7 +50,7 @@
 <!--Glyphicon do contato-->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#" style="color:#171614;">Contato💌 </a></li>
-        <li><a hreg="#" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-user"> Login </a></span></li>
+        <li><a href="#" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-user"></span>Login </a></li>
       </ul>
     
     </div>
