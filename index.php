@@ -23,59 +23,69 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="shortcut icon" href="imagens/pingoooo.png" type="image/x-icon">
+    <style type="text/css"> 
+      .navbar{margin-bottom: 0;}
+      body
+      {
+        font-family: "Bellota Text-Regular"; 
+      }
+    </style>
 </head>
 
 <body>
-<nav class="navbar navbar-default" style="background-color: #8EC3DB; border-color:#171614">
-<!--cria uma margem-->  
-<div class="container-fluid">
-<!--Menu hambúrguer -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="border-color:#171614;">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand pull-left">  <img src="imagens/pingoooo.png" style="width: 30px;"/> </a>
-    </div>
+  <?php include 'nav.php' ?>
+  <?php include 'cabecalho.html' ?>
 
-<!--Conteúdos do navbar -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#" style="color:#171614;"> Home🏡 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#" style="color:#171614;"> Lançamentos✨</a></li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:#171614;">Categorias <span class="caret"></span></a>
-          <ul class="dropdown-menu" style="background-color:#CA80B2";>
-            <li><a href="#" style="color:#171614;">Escolar📘</a></li>
-            <li><a href="#" style="color:#171614;">Escritório📁</a></li>
-            <li><a href="#" style="color:#171614;">Universitário📓</a></li>
-            <li role="separator" class="divider"> </li>
-            <li><a href="#" style="color:#171614;">Presentes🎁</a></li>
-            <li><a href="#" style="color:#171614;">Mochilas e Bolsas🎒</a></li>          
-          </ul>
-        </li>
-      </ul>
-<!--Form no navbar-->
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Procure aqui 🖌🐧">
+  <div class="container-fluid"> 
+<!--div para criar 4 colunas e 1 linha-->
+    <div class="row">
+      <div class="col-sm-3"> 
+        <img src="https://i.pinimg.com/564x/82/27/6a/82276a33780922dfdb64fccddf730bfc.jpg" class="img-responsive" style="width: 100%;">
+        <div> <h2>Caderno Pequeno Minimalista</h2> </div>
+        <div> 
+          <h4>R$:16,00</h4>
+          <h5>Minimalismo, detalhes e cores suaves.                                    
+              Este modelo possui um elástico e porta caneta laterais para melhor praticidade.</h5>
         </div>
-        <button type="submit" class="btn btn-default">Pesquisar</button>
-      </form>
-<!--Glyphicon do contato-->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" style="color:#171614;"> Contato💌 </a></li>
-        <li> <span class="glyphicon glyphicon-user"></span> </li>
-      </ul>
+      </div>
+
+      <div class="col-sm-3"> 
+        <img src="https://i.pinimg.com/564x/fb/87/7d/fb877d69d26ca8a3979c3d8eb09d67d3.jpg" class="img-responsive" style="width: 100%;">
+        <div> <h2>Caneta Gatinho</h2> </div>
+        <div> 
+          <h4>R$:8,00</h4>
+          <h5>Delicada, confortável e fofa.
+              Possui cores pasteis, orelhinhas e gatinhos com diferentes expressões. </h5> 
+        </div>
+      </div>
+    
+
+      <div class="col-sm-3"> 
+        <img src="https://i.pinimg.com/564x/42/dc/c6/42dcc6b349e80bd42ce886f3d2bd2887.jpg" class="img-responsive" style="width: 100%;">
+        <div> <h2>Marca-texto Emoji</h2> </div>
+        <div> 
+          <h4>R$: 6,00</h4> 
+          <h5>Coloridos, bonitinhos e pequenos.
+              Pequenos, faceis de levar, divertidos e também colecionáveis.</h5> 
+        </div>
+      </div>
+    
+
+      <div class="col-sm-3"> 
+        <img src="https://i.pinimg.com/564x/91/6e/29/916e29102f867b80446de90b324314a0.jpg" class="img-responsive" style="width: 100%;">
+        <div> <h2>Marca Página Bichinho</h2> </div>
+        <div> 
+          <h4>R$:10,00</h4> 
+          <h5>Artesanal, divertido e personalizado.
+              Fofinhos e detalhados, são feitos de biscut com muito carinho e capricho.
+          </h5>
+        </div>
+      </div>
     
     </div>
-  
-</div>
 
-</nav>
+  </div>
+<?php include 'rodape.html'; ?>
 
 </body>
 
@@ -83,4 +93,4 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
 <!-- cabo valeu! penguin papelaria 🎀🐧💜
 Agradecimentos: Lu e May
-sala loka do surto coletivo por white people problems 🤗🤗🤗🥱😴😪😑😚😂🤣-->
+sala dos white people problems 🤗🤗🤗🥱😴😪😑😚😂🤣-->
