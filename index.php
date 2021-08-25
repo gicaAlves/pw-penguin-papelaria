@@ -40,7 +40,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 <!--div para criar 4 colunas e 1 linha-->
     <div class="row">
       <div class="col-sm-3"> 
-        <img src="https://i.pinimg.com/564x/82/27/6a/82276a33780922dfdb64fccddf730bfc.jpg" class="img-responsive" style="width: 100%;">
+        <img src="./imagens/produtos/caderno_minimalista.jpg" class="img-responsive" style="width: 100%;">
         <div> <h2>Caderno Pequeno Minimalista</h2> </div>
         <div> 
           <h4>R$:16,00</h4>
@@ -50,7 +50,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
       </div>
 
       <div class="col-sm-3"> 
-        <img src="https://i.pinimg.com/564x/fb/87/7d/fb877d69d26ca8a3979c3d8eb09d67d3.jpg" class="img-responsive" style="width: 100%;">
+        <img src="./imagens/produtos/caneta_gatinho.jpg" class="img-responsive" style="width: 100%;">
         <div> <h2>Caneta Gatinho</h2> </div>
         <div> 
           <h4>R$:8,00</h4>
@@ -61,7 +61,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     
 
       <div class="col-sm-3"> 
-        <img src="https://i.pinimg.com/564x/42/dc/c6/42dcc6b349e80bd42ce886f3d2bd2887.jpg" class="img-responsive" style="width: 100%;">
+        <img src="./imagens/produtos/marca-texto_emoji.jpg" class="img-responsive" style="width: 100%;">
         <div> <h2>Marca-texto Emoji</h2> </div>
         <div> 
           <h4>R$: 6,00</h4> 
@@ -72,7 +72,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     
 
       <div class="col-sm-3"> 
-        <img src="https://i.pinimg.com/564x/91/6e/29/916e29102f867b80446de90b324314a0.jpg" class="img-responsive" style="width: 100%;">
+        <img src="./imagens/produtos/marcador-bichinhos.jpg" class="img-responsive" style="width: 100%;">
         <div> <h2>Marca Página Bichinho</h2> </div>
         <div> 
           <h4>R$:10,00</h4> 
