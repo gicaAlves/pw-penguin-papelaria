@@ -35,56 +35,31 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 <body>
   <?php include 'nav.php' ?>
   <?php include 'cabecalho.html' ?>
+  <?php include 'conexao.php' ?>
+  <?php
+    $consulta = $con ->query("select * from vw_cat_prod");
+  ?>
+
 
   <div class="container-fluid"> 
 <!--div para criar 4 colunas e 1 linha-->
     <div class="row">
+      <?php  while($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
+      
       <div class="col-sm-3"> 
-        <img src="./imagens/produtos/caderno_minimalista.jpg" class="img-responsive" style="width: 100%;">
-        <div> <h2>Caderno Pequeno Minimalista</h2> </div>
+        <img src="./imagens/produtos/<?php echo $exibe["img_prod"] ?>.jpg" class="img-responsive" style="width: 100%;">
+        <div> <h2><?php echo mb_strimwidth ($exibe["nome_prod"], 0, 30, '...' )?></h2> </div>
         <div> 
-          <h4>R$:16,00</h4>
-          <h5>Minimalismo, detalhes e cores suaves.                                    
-              Este modelo possui um elástico e porta caneta laterais para melhor praticidade.</h5>
+          <h4>R$ <?php echo number_format ($exibe["preco_prod"], 2, ',', '.' )?></h4>
+          <h5><?php echo $exibe["desc_prod"] ?></h5>
         </div>
       </div>
 
-      <div class="col-sm-3"> 
-        <img src="./imagens/produtos/caneta_gatinho.jpg" class="img-responsive" style="width: 100%;">
-        <div> <h2>Caneta Gatinho</h2> </div>
-        <div> 
-          <h4>R$:8,00</h4>
-          <h5>Delicada, confortável e fofa.
-              Possui cores pasteis, orelhinhas e gatinhos com diferentes expressões. </h5> 
-        </div>
-      </div>
-    
-
-      <div class="col-sm-3"> 
-        <img src="./imagens/produtos/marca-texto_emoji.jpg" class="img-responsive" style="width: 100%;">
-        <div> <h2>Marca-texto Emoji</h2> </div>
-        <div> 
-          <h4>R$: 6,00</h4> 
-          <h5>Coloridos, bonitinhos e pequenos.
-              Pequenos, faceis de levar, divertidos e também colecionáveis.</h5> 
-        </div>
-      </div>
-    
-
-      <div class="col-sm-3"> 
-        <img src="./imagens/produtos/marcador-bichinhos.jpg" class="img-responsive" style="width: 100%;">
-        <div> <h2>Marca Página Bichinho</h2> </div>
-        <div> 
-          <h4>R$:10,00</h4> 
-          <h5>Artesanal, divertido e personalizado.
-              Fofinhos e detalhados, são feitos de biscut com muito carinho e capricho.
-          </h5>
-        </div>
-      </div>
-    
+      <?php } ?>
     </div>
 
   </div>
+
 <?php include 'rodape.html'; ?>
 
 </body>

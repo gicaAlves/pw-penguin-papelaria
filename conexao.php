@@ -5,8 +5,8 @@
     $senha = "123456";
     $banco = "penguin_papelaria";
     
-    $con = new PDO("mysql:host=$sevidor; dbname=$banco, $usuario, $senha");
-    
+    $con = new PDO("mysql:host=$servidor; dbname=$banco", $usuario, $senha);
+
 
 
 
