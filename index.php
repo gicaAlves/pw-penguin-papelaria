@@ -37,7 +37,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
   <?php include 'cabecalho.html' ?>
   <?php include 'conexao.php' ?>
   <?php
-    $consulta = $con ->query("select * from vw_cat_prod");
+    $consulta = $con ->query("select img_prod, nome_prod, preco_prod from vw_cat_prod");
   ?>
 
 
@@ -51,7 +51,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
         <div> <h2><?php echo mb_strimwidth ($exibe["nome_prod"], 0, 30, '...' )?></h2> </div>
         <div> 
           <h4>R$ <?php echo number_format ($exibe["preco_prod"], 2, ',', '.' )?></h4>
-          <h5><?php echo $exibe["desc_prod"] ?></h5>
+         <!-- <h5><?php echo $exibe["desc_prod"] ?></h5>  -->
         </div>
       </div>
 
