@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#" style="color:#171614;"> Home🏡 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#" style="color:#171614;"> Lançamentos✨</a></li>
+        <li><a href="lancamentos.php" style="color:#171614;"> Lançamentos✨</a></li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:#171614;">Categorias <span class="caret"></span></a>
