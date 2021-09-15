@@ -39,7 +39,11 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     include 'nav.php'; 
     include 'cabecalho.html'; 
     include 'conexao.php'; 
-    $consulta = $con->query("select img_prod, nome_prod, preco_prod, quant_prod from vw_cat_prod");
+
+    //chamando a váriavel da categoria, que foi editada no nav//
+    $cat= $_GET['cat'];
+
+    $consulta = $con->query("select img_prod, nome_prod, preco_prod, quant_prod, nov_prod, nome_cat from vw_cat_prod where nome_cat= '$cat'");
   ?>
 
 
