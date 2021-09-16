@@ -25,4 +25,17 @@ create table produtos
 )
 default charset utf8;
 
+create table usuario
+(
+	cod_usu int primary key auto_increment,
+    nome_usu varchar (100) not null,
+    email_usu varchar (200) not null,
+    senha_usu varchar(10) not null,
+    zap_usu boolean not null,
+    cep_usu char (9) not null
+)
+default charset utf8;
+    
+    
+
 drop table produtos;
