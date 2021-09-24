@@ -44,17 +44,18 @@
         <div class="col-sm-4 col-sm-offset-4">
 
             <h2>Login de Usuário</h2>
+            <form name="form_usuario" method="POST" action="validacao_usuario.php">
 
             <div class="form-group">
 
                 <label for="email">Email</label>
-                <input name="email" type="email" class="form-control" required id="email">
+                <input name="txtemail" type="email" class="form-control" required id="email">
             </div>
 
             <div class="form-group">
 
                 <label for="senha">Senha</label>
-                <input name="senha" type="password" class="form-control" required id="senha">
+                <input name="txtsenha" type="password" class="form-control" required id="senha">
             </div>
 
             <br/> 
@@ -71,7 +72,7 @@
                 <img src="./imagens/mais um.jpg" style="width: 12%;"/>
 
             </button>
-
+            </form>
         </div>
     </div>
 </div>
