@@ -30,14 +30,13 @@ if ($consulta-> rowCount() == 1){
         $_SESSION['Status']=1;
         header('location:index.php');
     }
-
+    
    //echo 'O usuário possui cadastro! 🥳🐧';//
 }
-
 //e se o usuário não for válido, ou seja, não possuir cadastro..//
 else {
     //echo 'O usuário não possui cadastro! 🥺🐧';//
-    header('location:error.php');
+    header('location:erro.php');
 }
 
 

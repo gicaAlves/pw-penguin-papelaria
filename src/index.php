@@ -22,7 +22,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
   <!-- JavaScript compilado-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link rel="shortcut icon" href="./imagens/pingoooo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imagens/pingumaior.png" type="image/x-icon">
   <style type="text/css">
     .navbar {
       margin-bottom: 0;

@@ -1,4 +1,8 @@
 <!--navbar da página -->
+
+<head>
+  <link rel="shortcut icon" href="./imagens/pingumaior.png" type="image/x-icon">
+</head>
 <style type="text/css">
   body {
     font-family: "Bellota Text-Regular";
@@ -54,7 +58,7 @@
         <?php
         if (empty($_SESSION['ID'])) { ?>
           <li><a href="form_login.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
-          
+
           <?php } else {
           if ($_SESSION['Status'] == 0) {
             $consulta_usuario = $con->query("select nome_usu from usuario where cod_usu = '$_SESSION[ID]'");

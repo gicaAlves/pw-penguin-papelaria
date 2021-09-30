@@ -16,12 +16,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-    <style>
+    <style type="txt/css">
         .navbar {
             margin-bottom: 0;
         }
-    </style>
+        body {
+            font-family: "Bellota Text-Regular";
+            color: #171614;
 
+  }
+    </style>
 
 </head>
 
@@ -42,13 +46,15 @@
 
             <div class="col-sm-4 col-sm-offset-4 text-center">
 
-                <h2>Usuário ou senha incorreto!!</h2>
+                <h2 style="font-size: 180%;">Usuário ou senha inválidos😡🐧!</h2>
+                <br/>
 
-                <a href="formLogon.php" class="btn btn-block btn-default" role="button">Tentar Novamente</a>
+                <a href="form_login.php" class="btn btn-lg btn-block btn-default" role="button">Tentar Novamente</a>
 
                 <button type="button" class="btn btn-lg btn-link">
 
                     Ainda não sou cadastrado
+                    <img src="./imagens/mais um.jpg" style="width: 12%;"/>
 
                 </button>
 
