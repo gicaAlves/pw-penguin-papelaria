@@ -7,10 +7,9 @@ _PW II - exercício de php_
 Este exercício foi inspirado em um Flyer, proposto também, como atividade do curso. Decidi 
 permanecer com a mesma ideia, pois tenho muito carinho por esse projeto. 💜🐧
 
-## Aula 1 a 3 ##
-O exercício consiste em uma página de menu com _navbar_, apresentando os seguintes elementos:
+## Funcionalidades:
 
-* Home🏡
+* Barra de navegação da loja
 * Lançamentos✨
 * Categorias
   * Escolar📘
@@ -18,32 +17,35 @@ O exercício consiste em uma página de menu com _navbar_, apresentando os segui
   * Universitário📓 
   * Presentes🎁
   * Mochilas e Bolsas🎒
-* Um form "Procure aqui🖌🐧" junto com um botão "Pesquisar"
-* Contato💌
-* Login📲
+* Login de usuário 
+* Sessão de Administrador, contando com mais funcionalidades
+* Área de Contato
+* Conexão com banco de dados MySQL
 
-Além disso, possui um ícone e imagem no _brand_  de pinguim. Acesse a pasta "imagens" para conferir 🐧💜
-
-
-## Aulas 3 a 7 ##
-Foi criado três arquivos externos de _HTML_ _"cabecalho", "navbar" e "rodape"_ contendo informações sobre cada respectiva parte da loja, assim o _index_ torna-se mais organizado 
-produtivo.
-Criei também 4 colunas para apresentar alguns produtos, detalhados com imagem, nome, preço e descrição.                                               
+➡Se quiser conferir as imagens dos produtos e dos ícones de pinguim, acesse a pasta imagens! 📁
 
 
 
 
 
 
-## Confira o resultado: 🐧💜✨##
+## Confira o resultado: 🐧💜✨
 
 
-https://user-images.githubusercontent.com/85961354/130391740-ca3f81aa-36ef-4765-acc7-be280c080c7e.mp4
+### Desktop:
+
+https://user-images.githubusercontent.com/85961354/135397456-a805242f-6df0-4c52-8e5a-d9ec96c76299.mp4
 
 
 
 
-https://user-images.githubusercontent.com/85961354/130391778-e9bea539-86f4-4e5c-9ba9-73816d5c2f6f.mp4
+
+### Mobile:
+
+https://user-images.githubusercontent.com/85961354/135395635-fb146434-7c7b-40de-9e79-9705aa1a08bc.mp4
+
+
+
 
 
 
