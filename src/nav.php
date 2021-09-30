@@ -51,16 +51,23 @@
         <li><a href="#" style="color:#171614;">Contato💌 </a></li>
 
         <!--incluir estrutura de condição php -->
-        <?php if (empty($_SESSION['ID'])) { ?>
+        <?php
+        if (empty($_SESSION['ID'])) { ?>
           <li><a href="form_login.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
-        <?php } else {
-          $consulta_usuario = $con->query("select nome_usu from usuario where cod_usu = '$_SESSION[ID]'");
-          $exibe_usuario = $consulta_usuario->fetch(PDO::FETCH_ASSOC);
-        ?>
-          <li><a href="#" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-user"></span> <?php echo $exibe_usuario['nome_usu']; ?></a></li>
-          <li><a href="sair.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-out"></span> Sair </a></li>
+          
+          <?php } else {
+          if ($_SESSION['Status'] == 0) {
+            $consulta_usuario = $con->query("select nome_usu from usuario where cod_usu = '$_SESSION[ID]'");
+            $exibe_usuario = $consulta_usuario->fetch(PDO::FETCH_ASSOC);
+          ?>
+            <li><a href="#" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-user"></span> <?php echo $exibe_usuario['nome_usu']; ?></a></li>
+            <li><a href="sair.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-out"></span> Sair </a></li>
+          <?php } else { ?>
+            <li><a href="admiro.php;"><button class="btn btn-sm btn-info" style="color: #171614;">Administrador🐧</button></a></li>
+            <li><a href="sair.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-out"></span> Sair </a></li>
+        <?php }
+        } ?>
 
-        <?php } ?>
 
       </ul>
 
