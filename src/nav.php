@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand pull-left"><img src="imagens/pingoooo.png" style="width: 30px;" /></a>
+      <a class="navbar-brand pull-left"><img src="imagens/penguinn.png" style="width: 30px;" /></a>
     </div>
 
     <!--Conteúdos do navbar -->
