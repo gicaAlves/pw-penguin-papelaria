@@ -67,6 +67,7 @@
                <!--se caso eu mudar de ideia: <img src="./imagens/pingoooo.png" style="width: 7%;"/> -->
             </button>
 
+            <a href="form_novo_usu.php"
             <button type="submit" class="btn btn-lg btn-link">
 
                 Não tenho cadastro 
