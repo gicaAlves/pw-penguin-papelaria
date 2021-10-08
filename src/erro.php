@@ -51,13 +51,15 @@
 
                 <a href="form_login.php" class="btn btn-lg btn-block btn-default" role="button">Tentar Novamente</a>
 
-                <button type="button" class="btn btn-lg btn-link">
+                
+                <a href="form_novo_usu.php">
+                    <button type="button" class="btn btn-lg btn-link">
 
-                    Ainda não sou cadastrado
-                    <img src="./imagens/mais um.jpg" style="width: 12%;"/>
+                        Ainda não sou cadastrado
+                        <img src="./imagens/mais um.jpg" style="width: 12%;"/>
 
-                </button>
-
+                    </button>
+                </a>
             </div>
         </div>
     </div>

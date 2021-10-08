@@ -67,15 +67,16 @@
                <!--se caso eu mudar de ideia: <img src="./imagens/pingoooo.png" style="width: 7%;"/> -->
             </button>
 
-            <a href="form_novo_usu.php"
-            <button type="submit" class="btn btn-lg btn-link">
+            <a href="form_novo_usu.php">
+                <button type="button" class="btn btn-lg btn-link">
 
-                Não tenho cadastro 
-                <img src="./imagens/mais um.jpg" style="width: 12%;"/>
-
-            </button>
+                    Não tenho cadastro 
+                    <img src="./imagens/mais um.jpg" style="width: 12%;"/>
+            
+                </button>
+            </a>
             </form>
-        </div>
+        </div>  
     </div>
 </div>
 <br/> <br/>
