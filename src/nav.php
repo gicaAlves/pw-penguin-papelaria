@@ -1,7 +1,7 @@
 <!--navbar da página -->
 
 <head>
-  <link rel="shortcut icon" href="./imagens/pingumaior.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imagens/penguinn.png" type="image/x-icon">
 </head>
 <style type="text/css">
   body {
