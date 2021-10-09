@@ -39,11 +39,11 @@ drop table produtos;
 
 
 insert into usuario
-values(default, 'Giovanna', 'gigicacagi2016@pato.com', 'quackquack', true, '000000011'),
-(default, 'Lucca', 'lu_penguin@pato.com', 'jack123', true, '010101010'),
-(default, 'Taz', 'baby_taz@pato.com', 'furacao', false, '123456789'),
-(default, 'Piu-piu', 'baby_piupiu@pato.com', 'vovozinha', false, '121212120'),
-(default, 'Patolino', 'baby_patolino@pato.com', '2234444', false, '040404040');
+values(default, 'Giovanna', 'gigicacagi2016@pato.com', 'quackquack', true, '000000011', 395),
+(default, 'Lucca', 'lu_penguin@pato.com', 'jack123', true, '010101010', 570),
+(default, 'Taz', 'baby_taz@pato.com', 'furacao', false, '123456789', 188),
+(default, 'Piu-piu', 'baby_piupiu@pato.com', 'vovozinha', false, '121212120', 206),
+(default, 'Patolino', 'baby_patolino@pato.com', '2234444', false, '040404040', 230);
 
 
 

@@ -32,10 +32,11 @@ create table usuario
     email_usu varchar (200) not null,
     senha_usu varchar(10) not null,
     zap_usu boolean not null,
-    cep_usu char (9) not null
+    cep_usu char (9) not null,
+    num_end_usu int not null
 )
 default charset utf8;
     
-    
+drop table usuario;    
 
 drop table produtos;
