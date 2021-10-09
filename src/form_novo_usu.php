@@ -40,7 +40,6 @@
 <body>
 
     <?php
-
     include 'conexao.php';
     include 'nav.php';
     include 'cabecalho.html';
@@ -60,25 +59,26 @@
 
                     <div class="form-group">
 
-                        <label for="nome">Nome</label>
+                        <label for="nome">Nome:</label>
                         <input name="txtnome" type="text" class="form-control" required id="nome">
                     </div>
 
 
                     <div class="form-group">
 
-                        <label for="email">E-mail</label>
+                        <label for="email">E-mail:</label>
                         <input name="txtemail" type="email" class="form-control" required id="email">
                     </div>
 
 
                     <div class="form-group">
 
-                        <label for="senha">Senha</label>
+                        <label for="senha">Senha:</label>
                         <input name="txtsenha" type="password" class="form-control" required id="senha">
                     </div>
 
-                    <div class="form-group">
+
+    <!--   <div class="form-group">
 
                         <label for="endereco">Endereço</label>
                         <input name="txtendereco" type="text" class="form-control" required id="endereco">
@@ -91,17 +91,23 @@
                         <input name="txtcidade" type="text" class="form-control" required id="cidade">
                     </div>
 
+    -->
+                    <div class="form-group">
+
+                        <label for="cep">CEP:</label>
+                        <input name="txtcep" type="text" class="form-control" required id="cep">
+                    </div>
 
                     <div class="form-group">
 
-                        <label for="cep">CEP</label>
-                        <input name="txtcep" type="text" class="form-control" required id="cep">
+                        <label for="num">Número:</label>
+                        <input name="txtnum" type="text" class="form-control" required id="num">
                     </div>
 
 
                     <button type="submit" class="btn btn-lg btn-default">
 
-                        <span class="glyphicon glyphicon-pencil"> Cadastrar</span>
+                       <span class="glyphicon glyphicon-ok">Cadastrar</span> 
 
                     </button>
 
