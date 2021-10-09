@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -45,7 +45,7 @@
         <div class="col-sm-4 col-sm-offset-4">
 
             <h2>Login de Usuário</h2>
-            <form name="form_usuario" method="POST" action="validacao_usuario.php">
+            <form name="form_login" method="POST" action="validacao_usuario.php">
 
             <div class="form-group">
 
