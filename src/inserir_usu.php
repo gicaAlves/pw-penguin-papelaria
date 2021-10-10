@@ -1,4 +1,6 @@
 <?php
+
+include 'conexao.php';
 $nome = $_POST['txtnome'];
 $email = $_POST['txtemail'];
 $senha = $_POST['txtsenha'];
@@ -17,14 +19,14 @@ $consulta = $con->query("select email_usu from usuario where email_usu ='$email'
 $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
 
 if($consulta->rowCount()==1){
-    header('location:erro1.php');
+    header('location:erro_usu.php');
 } 
     
     else{
         $incluir = $con->query("
-        insert into usuario(nome_usu,ds_email, senha_usu, zap_usu, cep_usu, num_end_usu)
+        insert into usuario(nome_usu, email_usu, senha_usu, zap_usu, cep_usu, num_end_usu)
         values('$nome','$email','$senha','0','$cep', '$num')");
-        header('location:ok.php');
+        header('location:usu_cadastrado.php');
 
     //agora, a página inserir os dados no banco. Lá no MySQL, basta dar um select na tabela
     //e serão visíveis os novos dados.
