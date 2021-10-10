@@ -40,14 +40,16 @@
 
             <div class="col-sm-4 col-sm-offset-4 text-center">
 
-                <h2>Usuário Cadastrado com sucesso!! 🐧✨</h2>
+                <h3>Usuário Cadastrado com sucesso!!</h3> <br/> <br/>
 
-                <a href="formlogon.php" class="btn btn-block btn-info" role="button">Entrar na loja</a>
+                <a href="index.php" class="btn btn-lg btn-block btn-info" role="button">Entrar na loja ✨</a>
 
 
             </div>
         </div>
     </div>
+
+    <br/> <br/> <br/>
 
     <?php include 'rodape.html' ?>
 
