@@ -60,9 +60,9 @@
             </div>
 
             <br/> 
-            <button type="submit" class="btn btn-lg btn-block btn-default">
+            <button type="submit" class="btn btn-lg btn-block btn-info">
 
-               <span style="color:black; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-ok"></span> Entrar </span>
+               <span style="color:#171614; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-ok"></span> Entrar </span>
 
                <!--se caso eu mudar de ideia: <img src="./imagens/pingoooo.png" style="width: 7%;"/> -->
             </button>
@@ -79,7 +79,8 @@
         </div>  
     </div>
 </div>
-<br/> <br/>
+
+<br/> <br/> <br/>
 
 <?php include 'rodape.html' ?>
 

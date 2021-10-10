@@ -42,17 +42,18 @@
 
             <div class="col-sm-4 col-sm-offset-4 text-center">
 
-                <h2>Email já em uso na Loja!!!</h2>
+                <h3>Este usuário já possui cadastro!</h3> <br/>
 
                 <!--verifique o nome dos arquivos no seu trabalho!  -->
-                <a href="formusuario.php" class="btn btn-block btn-info" role="button">Tentar Novamente</a>
+                <a href="form_novo_usu.php" class="btn btn-lg btn-block btn-default" role="button">Tentar Novamente</a>
 
-                <a href="esquecisenha.php" class="btn btn-block btn-primary" role="button">Esqueci a senha</a>
+                <a href="esquecisenha.php" class="btn btn-lg btn-block btn-danger" role="button">Esqueci a senha🥺</a>
 
 
             </div>
         </div>
     </div>
+    <br/> <br/> <br/>
 
     <?php include 'rodape.html' ?>
 
