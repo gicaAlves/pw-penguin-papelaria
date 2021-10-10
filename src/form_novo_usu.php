@@ -74,7 +74,7 @@
                     <div class="form-group">
 
                         <label for="senha">Senha:</label>
-                        <input name="txtsenha" type="password" class="form-control" required id="senha">
+                        <input name="txtsenha" type="password" maxlength="10" class="form-control" required id="senha">
                     </div>
 
 
@@ -105,9 +105,9 @@
                     </div>
 
 
-                    <button type="submit" class="btn btn-lg btn-default">
+                    <button type="submit" class="btn btn-lg btn-info" style="font-family:Bellota Text-Regular">
 
-                       <span class="glyphicon glyphicon-ok">Cadastrar</span> 
+                    <span style="color:#171614; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-ok" ></span>Cadastrar</span> 
 
                     </button>
 
@@ -116,6 +116,7 @@
             </div>
         </div>
     </div>
+    <br/> <br/> <br/>
 
     <?php include 'rodape.html' ?>
 
