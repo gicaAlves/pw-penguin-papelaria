@@ -36,6 +36,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
 <body>
   <?php 
+    session_start();
     include 'nav.php'; 
     include 'cabecalho.html'; 
     include 'conexao.php'; 
