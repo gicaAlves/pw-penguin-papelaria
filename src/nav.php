@@ -1,8 +1,8 @@
 <!--navbar da página -->
-
 <head>
   <link rel="shortcut icon" href="./imagens/penguinn.png" type="image/x-icon">
 </head>
+
 <style type="text/css">
   body {
     font-family: "Bellota Text-Regular";
@@ -27,7 +27,7 @@
     <!--Conteúdos do navbar -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php" style="color:#171614;"> Home🏡 <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="index.php" style="color:#171614;">Home🏡 <span class="sr-only">(current)</span></a></li>
         <li><a href="lancamentos.php" style="color:#171614;"> Lançamentos✨</a></li>
 
         <li class="dropdown">
