@@ -36,12 +36,17 @@
     session_start();
 
     include 'conexao.php';
+
+    if (!empty($_GET['cd'])) {
+        $cod_prod = $_GET['cd'];
+        $consulta = $con->query("select * from vw_cat_prod where cod_prod = '$cod_prod'");
+        $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
+    } else {
+        header("Location: /" );
+    }
+
     include 'nav.php';
     include 'cabecalho.html';
-
-    $cod_prod = $_GET['cd'];
-    $consulta = $con->query("select * from vw_cat_prod where cod_prod = '$cod_prod'");
-    $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
     ?>
 
     <div class="container-fluid">
