@@ -39,36 +39,36 @@
     include 'nav.php';
     include 'cabecalho.html';
 
-
+    $cod_prod = $_GET['cd'];
+    $consulta = $con->query("select * from vw_cat_prod where cod_prod = '$cod_prod'");
+    $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
     ?>
 
     <div class="container-fluid">
-
-
-
         <div class="row">
 
             <div class="col-sm-4 col-sm-offset-1">
 
                 <h1>Detalhes do Produto</h1>
 
-                <img src="https://dummyimage.com/900x640" class="img-responsive" style="width:100%;">
+                <img src="./imagens/produtos/<?php echo $exibe["img_prod"] ?>.jpg" class="img-responsive" style="width:100%;">
             </div>
 
             <div class="col-sm-7">
-                <h1>Nome do Produto</h1>
+                <h1><?php echo $exibe["nome_prod"] ?></h1>
 
-                <p>Descrição do Produto</p>
+                <p><?php echo $exibe["desc_prod"] ?></p>
 
-                <p>Marca</p>
+                <p><?php echo $exibe["quant_prod"] ?> quantidades disponíveis</p>
 
-                <p>R$ 0,00</p>
+                <p>R$ <?php echo number_format($exibe["preco_prod"], 2, ',', '.') ?></p>
 
                 <button class="btn btn-lg btn-success">Comprar</button>
 
             </div>
         </div>
 
-        <?php include 'rodape.html';?>
+        <?php include 'rodape.html'; ?>
 </body>
+
 </html>
