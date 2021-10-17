@@ -67,7 +67,7 @@
             <li><a href="#" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-user"></span> <?php echo $exibe_usuario['nome_usu']; ?></a></li>
             <li><a href="sair.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-out"></span> Sair </a></li>
           <?php } else { ?>
-            <li><a href="admiro.php;"><button class="btn btn-sm btn-info" style="color: #171614;">Administrador🐧</button></a></li>
+            <li><a href="admiro.php"><button class="btn btn-sm btn-info" style="color: #171614;">Administrador🐧</button></a></li>
             <li><a href="sair.php" style="color:#171614; font-family: Bellota Text;"><span class="glyphicon glyphicon-log-out"></span> Sair </a></li>
         <?php }
         } ?>
