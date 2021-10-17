@@ -41,12 +41,20 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     session_start();
 
     include 'conexao.php';
-    include 'nav.php';
-    include 'cabecalho.html';
+
+    if (empty($_GET['txtBuscar'])) {
+        header("Location: index.php");
+    }
 
     $pesquisa = $_GET['txtBuscar'];
     $consulta = $con->query("select * from vw_cat_prod where nome_prod like concat ('%', '$pesquisa', '%') or desc_prod like concat ('%', '$pesquisa', '%')");
-    $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
+
+    if ($consulta->rowCount() == 0) {
+        header("Location: erro_busca.php");
+    }
+
+    include 'nav.php';
+    include 'cabecalho.html';
     ?>
 
     <div class="container-fluid">
