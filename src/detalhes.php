@@ -52,11 +52,7 @@
 
                 <h1>Detalhes do Produto</h1>
 
-                <img src="https://placehold.it/900x640" class="img-responsive" style="width:100%;">
-
-                <div class="col-sm-4 col-sm-offset-1" style="margin-top: 10px;"><img src="https://placehold.it/900x640" class="img-responsive"></div>
-                <div class="col-sm-4 col-sm-offset-1" style="margin-top: 10px;"><img src="https://placehold.it/900x640" class="img-responsive"></div>
-
+                <img src="https://dummyimage.com/900x640" class="img-responsive" style="width:100%;">
             </div>
 
             <div class="col-sm-7">
