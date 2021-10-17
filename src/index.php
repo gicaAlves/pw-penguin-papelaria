@@ -42,7 +42,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     include 'conexao.php'; 
     include 'nav.php'; 
     include 'cabecalho.html'; 
-    
+
     $consulta = $con->query("select cod_prod, img_prod, nome_prod, preco_prod, quant_prod from vw_cat_prod");
   ?>
 

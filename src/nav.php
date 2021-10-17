@@ -43,9 +43,9 @@
         </li>
       </ul>
       <!--Form no navbar-->
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form navbar-left" role="search" name="frmpesquisa" method="get" action="busca.php">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Procure aqui 🖌🐧">
+          <input type="text" class="form-control" placeholder="Procure aqui 🖌🐧" name="txtBuscar">
         </div>
         <button type="submit" class="btn btn-default">Pesquisar</button>
       </form>

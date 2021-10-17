@@ -1,32 +1,37 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="pt-br">
+<title>Penguin Papelaria</title>
 
 <head>
-    <meta charset="utf-8">
-    <title>Minha Loja</title>
+  <meta charset="author" content="Giovanna Alves (Gica)">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--essa TAG META serve para a página permanecer responsiva. 
+Viewport= área de visualização da página no browser;
+Width, device width = (largura do dispositivo) largura da página conforme a largura do browser do usuário;
+Initial Scala 1.0 é padrão (é o zoom da tela).             -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--agora refenciando os links do bootstrap e tal >-<-->
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery livraria -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- JavaScript compilado-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- meu ícone de pinguim:-->
-    <link rel="shortcut icon" href="./imagens/penguinn.png" type="image/x-icon">
+  <link rel="shortcut icon" href="imagens/pingumaior.png" type="image/x-icon">
+  <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+    }
 
-    <style>
-        .navbar {
-            margin-bottom: 0;
-        }
-    </style>
-
-
-
+    body {
+      font-family: "Bellota Text-Regular";
+    }
+  </style>
 </head>
 
 <body>
