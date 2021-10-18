@@ -42,8 +42,8 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
     include 'conexao.php'; 
     include 'nav.php'; 
     include 'cabecalho.html'; 
-    
-    $consulta = $con->query("select img_prod, nome_prod, preco_prod, quant_prod from vw_cat_prod");
+
+    $consulta = $con->query("select cod_prod, img_prod, nome_prod, preco_prod, quant_prod from vw_cat_prod");
   ?>
 
 
@@ -63,9 +63,11 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
           </div>
           <!-- botões: -->
           <div class="text-center">
-            <button class="btn btn-primary btn-block btn-info">
-              <span style="color:black; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-info-sign"></span> Detalhes </span>
-            </button>
+            <a href="detalhes.php?cd=<?php echo $exibe['cod_prod']; ?>">
+              <button class="btn btn-primary btn-block btn-info">
+                <span style="color:black; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-info-sign"></span> Detalhes </span>
+              </button>
+            </a>
           </div>
           <!--botão de compra com if e else para consulta de disponibilidade -->
           <div class="text-center" style="margin-top:5px; margin-bottom:5px;">

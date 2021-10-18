@@ -38,47 +38,29 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
     <?php
 
-    session_start();
-
     include 'conexao.php';
-
-    if (!empty($_GET['cd'])) {
-        $cod_prod = $_GET['cd'];
-        $consulta = $con->query("select * from vw_cat_prod where cod_prod = '$cod_prod'");
-        $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
-    } else {
-        header("Location: /" );
-    }
-
     include 'nav.php';
     include 'cabecalho.html';
+
     ?>
 
+
     <div class="container-fluid">
+
         <div class="row">
 
-            <div class="col-sm-4 col-sm-offset-1">
+            <div class="col-sm-4 col-sm-offset-4 text-center">
 
-                <h1>Detalhes do Produto</h1>
-
-                <img src="./imagens/produtos/<?php echo $exibe["img_prod"] ?>.jpg" class="img-responsive" style="width:100%;">
-            </div>
-
-            <div class="col-sm-7">
-                <h1><?php echo $exibe["nome_prod"] ?></h1>
-
-                <p><?php echo $exibe["desc_prod"] ?></p>
-
-                <p><?php echo $exibe["quant_prod"] ?> quantidades disponíveis</p>
-
-                <p>R$ <?php echo number_format($exibe["preco_prod"], 2, ',', '.') ?></p>
-
-                <button class="btn btn-lg btn-success">Comprar</button>
+                <h3>Nenhum produto foi encontrado! 😢</h3> <br/>
 
             </div>
         </div>
+    </div>
+    <br/> <br/> <br/>
 
-        <?php include 'rodape.html'; ?>
+    <?php include 'rodape.html' ?>
+
+
 </body>
 
 </html>
