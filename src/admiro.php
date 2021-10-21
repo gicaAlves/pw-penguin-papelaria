@@ -60,10 +60,11 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
             <div class="col-sm-4 col-sm-offset-4 text-center">
 
                 <h2>Área administrativa</h2>
+                <br/> 
 
 
                 <a href="formProduto.php">
-                    <button type="submit" class="btn btn-block btn-lg btn-primary">
+                    <button type="submit" class="btn btn-block btn-lg btn-default">
 
                         Incluir Produto
 
@@ -72,14 +73,14 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
                 </a>
 
 
-                <button type="submit" class="btn btn-block btn-lg btn-warning">
+                <button type="submit" class="btn btn-block btn-lg btn-default">
 
-                    Alterar / Excluir Produto
+                    Alterar ou Excluir Produto
 
                 </button>
 
 
-                <button type="submit" class="btn btn-block btn-lg btn-success">
+                <button type="submit" class="btn btn-block btn-lg btn-default">
 
                     Vendas
 
@@ -89,7 +90,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                 <button type="submit" class="btn btn-block btn-lg btn-danger">
 
-                    Sair da àrea administrativa
+                    Sair da área administrativa
 
                 </button>
 
@@ -99,6 +100,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
             </div>
         </div>
     </div>
+    <br/> <br/> <br/> <br/> <br/>
 
     <?php include 'rodape.html' ?>
 
