@@ -145,12 +145,15 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
                     </div>
 
 
-                    <button type="submit" class="btn btn-lg btn-default">
+                    <button type="submit" class="btn btn-lg btn-info">
 
-                        <span class="glyphicon glyphicon-pencil"> Cadastrar </span>
+                    <span style="color:#171614; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-info-sign"></span> Cadastrar</span>
 
                     </button>
 
+                    
+               <!--se caso eu mudar de ideia: <img src="./imagens/pingoooo.png" style="width: 7%;"/> -->
+            
                 </form>
 
             </div>
