@@ -3,9 +3,9 @@
 <title>Penguin Papelaria</title>
 
 <head>
-  <meta charset="author" content="Giovanna Alves (Gica)">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="author" content="Giovanna Alves (Gica)"/>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <!--essa TAG META serve para a página permanecer responsiva. 
 Viewport= área de visualização da página no browser;
 Width, device width = (largura do dispositivo) largura da página conforme a largura do browser do usuário;
@@ -85,15 +85,16 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
                     Vendas
 
                 </button>
+                <br/>
 
 
-
+                <a href="index.php">
                 <button type="submit" class="btn btn-block btn-lg btn-danger">
 
                     Sair da área administrativa
 
                 </button>
-
+                </a>
 
 
 
