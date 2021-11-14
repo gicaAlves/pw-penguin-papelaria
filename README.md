@@ -1,5 +1,6 @@
 # pw-penguin-papelaria 🐧
-Exercício de php de uma loja virtual.
+
+*Atividade de uma loja virtual (Papelaria) com HTML, PHP e Bootstrap.*
 
 ## Loja Virutal - Penguin Papelaria ##
 _PW II - exercício de php_
