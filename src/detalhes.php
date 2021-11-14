@@ -42,11 +42,14 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
     include 'conexao.php';
 
+    //se possuir valor, selecione os detalhes do produto//
     if (!empty($_GET['cd'])) {
         $cod_prod = $_GET['cd'];
         $consulta = $con->query("select * from vw_cat_prod where cod_prod = '$cod_prod'");
         $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
-    } else {
+    } 
+    //se estiver vazia, volta para o index.//
+    else {
         header("Location: /" );
     }
 
