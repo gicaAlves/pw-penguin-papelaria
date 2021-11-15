@@ -72,19 +72,21 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                 </a>
 
-
+                <a href="#">
                 <button type="submit" class="btn btn-block btn-lg btn-default">
 
                     Alterar ou Excluir Produto
 
                 </button>
+                </a>
 
-
+                <a href="#">
                 <button type="submit" class="btn btn-block btn-lg btn-default">
 
                     Vendas
 
                 </button>
+                </a>
                 <br/>
 
 
