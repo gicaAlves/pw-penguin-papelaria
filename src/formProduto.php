@@ -145,9 +145,9 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
                     </div>
 
 
-                    <button type="submit" class="btn btn-lg btn-info">
+                    <button type="submit" class="btn btn-lg btn-block btn-info">
 
-                    <span style="color:#171614; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-info-sign"></span> Cadastrar</span>
+                    <span style="color:#171614; font-family:Bellota Text-Regular"><span class="glyphicon glyphicon-info-sign"></span> Incluir</span>
 
                     </button>
 
