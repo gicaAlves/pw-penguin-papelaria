@@ -74,7 +74,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                 <h2>Inclusão de Produtos</h2>
 
-                <form method="post" action="insprod.php" name="incluiProd" enctype="multipart/form-data">
+                <form method="post" action="novo_prod.php" name="incluiProd" enctype="multipart/form-data">
 
                     <div class="form-group">
                         <label for="txtproduto">Nome do Produto</label>
