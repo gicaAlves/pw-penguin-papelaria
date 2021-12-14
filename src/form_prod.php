@@ -151,9 +151,9 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                     </button>
 
-                    
+
                <!--se caso eu mudar de ideia: <img src="./imagens/pingoooo.png" style="width: 7%;"/> -->
-            
+
                 </form>
 
             </div>
@@ -167,4 +167,4 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
 </body>
 
-</html>
+</html
