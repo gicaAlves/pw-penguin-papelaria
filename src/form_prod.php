@@ -83,9 +83,9 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                     <div class="form-group">
 
-                        <label for="sltcat">Categoria</label>
+                        <label for="cat">Categoria</label>
 
-                        <select class="form-control" name="sltcat">
+                        <select class="form-control" name="cat">
                             <option value="">Selecione</option>
                             <?php while ($listaCat = $consultaCat->fetch(PDO::FETCH_ASSOC)) { ?>
                                 <option value="<?php echo $listaCat['cod_cat']; ?>"><?php echo $listaCat['nome_cat']; ?></option>
@@ -106,9 +106,9 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
 
                     <div class="form-group">
 
-                        <label for="txtqtde">Quantidade em Estoque</label>
+                        <label for="txtqtd">Quantidade em Estoque</label>
 
-                        <input type="number" class="form-control" name="txtqtde" required id="txtqtde">
+                        <input type="number" class="form-control" name="txtqtd" required id="txtqtde">
 
                     </div>
 
