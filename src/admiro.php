@@ -63,7 +63,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
                 <br/> 
 
 
-                <a href="formProduto.php">
+                <a href="form_prod.php">
                     <button type="submit" class="btn btn-block btn-lg btn-default">
 
                         Incluir Produto
