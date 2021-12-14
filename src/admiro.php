@@ -60,10 +60,8 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
             <div class="col-sm-4 col-sm-offset-4 text-center">
 
                 <h2>Área administrativa</h2>
-                <br/> 
-
-
-                <a href="formProduto.php">
+                <br/>
+              <a href="form_prod.php">
                     <button type="submit" class="btn btn-block btn-lg btn-default">
 
                         Incluir Produto
