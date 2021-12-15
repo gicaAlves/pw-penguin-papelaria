@@ -9,7 +9,7 @@ $cat = $_POST['cat'];  // recebendo o valor do campo select, valor numérico
 $preco = $_POST['txtpreco'];
 $qtd = $_POST['txtqtd'];
 $descricao = $_POST['txtdescricao'];
-$lanc = $_POST['sltlanc'] == 'S' ? true : false;
+$lanc = $_POST['sltlanc'] == 'S' ? 1 : 0;
 
 $remover1='.';  // criando variável e atribuindo o valor de ponto para ela
 $preco = str_replace($remover1, '', $preco); // removendo ponto de casa decimal,substituindo por vazio
@@ -33,20 +33,13 @@ $img_nome1 = md5(uniqid(time())).".".$extencao1[1];
 
 
 try {  // try para tentar inserir
-    echo $destino.$img_nome1;
+    move_uploaded_file($recebe_foto1['tmp_name'], $destino.$img_nome1);  
     $resizeObj = new resize($destino.$img_nome1);
-    die();
-    $resizeObj -> resizeImage(900, 640, 'crop');
-    $inserir = $con->query("INSERT INTO produtos(cod_cat, nome_prod, preco_prod, desc_prod, quant_prod, img_prod, nov_prod) VALUES ('$cat', '$nome_prod', $preco, '$descricao', '$qtd', '$img_nome1', '$lanc')");
+    $resizeObj -> resizeImage(900, 900, 'crop');
     $resizeObj -> saveImage($destino.$img_nome1, 100);
-
-
+    $inserir = $con->query("INSERT INTO produtos(cod_cat, nome_prod, preco_prod, desc_prod, quant_prod, img_prod, nov_prod) VALUES ('$cat', '$nome_prod', $preco, '$descricao', '$qtd', '$img_nome1', $lanc)");
     header("Location: index.php");
-
 }catch(PDOException $e) {  // se houver algum erro explodir na tela a mensagem de erro
-
-	
 	echo $e->getMessage();
-	
 }
 ?>
