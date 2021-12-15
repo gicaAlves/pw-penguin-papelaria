@@ -50,7 +50,7 @@ Initial Scala 1.0 é padrão (é o zoom da tela).             -->
       <?php while ($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
 
         <div class="col-sm-3">
-          <img src="./imagens/produtos/<?php echo $exibe["img_prod"] ?>.jpg" class="img-responsive" style="width: 100%;">
+          <img src="./imagens/produtos/<?php echo $exibe["img_prod"] ?>" class="img-responsive" style="width: 100%;">
           <div>
             <h2><?php echo mb_strimwidth($exibe["nome_prod"], 0, 30, '...') ?></h2>
           </div>
