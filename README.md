@@ -1,6 +1,6 @@
 # pw-penguin-papelaria 🐧
 
-*Atividade de uma loja virtual (Papelaria) com HTML, PHP e Bootstrap.*
+*Atividade de uma loja virtual 🛍 (Papelaria) com HTML, PHP e Bootstrap.*
 
 ## Loja Virutal - Penguin Papelaria ##
 _PW II - exercício de php_
@@ -33,7 +33,7 @@ permanecer com a mesma ideia, pois tenho muito carinho por esse projeto. 💜�
 ## Confira o resultado: 🐧💜✨
 
 
-### Desktop:
+### Desktop🖥:
 
 https://user-images.githubusercontent.com/85961354/135397456-a805242f-6df0-4c52-8e5a-d9ec96c76299.mp4
 
@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/85961354/135397456-a805242f-6df0-4c52-
 
 
 
-### Mobile:
+### Mobile📱:
 
 https://user-images.githubusercontent.com/85961354/135395635-fb146434-7c7b-40de-9e79-9705aa1a08bc.mp4
 
