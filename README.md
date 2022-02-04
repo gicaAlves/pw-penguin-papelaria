@@ -2,13 +2,13 @@
 
 *Atividade de uma loja virtual 🛍 (Papelaria) com HTML, PHP e Bootstrap.*
 
-## Loja Virutal - Penguin Papelaria ##
+## 🛍Loja Virutal - Penguin Papelaria🐧 ##
 _PW II - exercício de php_
 
 Este exercício foi inspirado em um Flyer, proposto também, como atividade do curso. Decidi 
 permanecer com a mesma ideia, pois tenho muito carinho por esse projeto. 💜🐧
 
-## Funcionalidades:
+## 📝Funcionalidades🔍:
 
 * Barra de navegação da loja
 * Lançamentos✨
